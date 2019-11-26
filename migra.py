@@ -262,6 +262,26 @@ def partition(dbname, num_partition):
 
 #partition("dbtoy", 2)
 
+
+
+### 1 D
+
+##data = [rd.gauss(0,2) for a in range(1000)]
+##x_absc = np.linspace(-15,15,250)
+##y_ord = []
+##for a in range(len(x_absc)):
+##    y_ord.append(dens(x_absc[a],data,3))
+##
+##y_ord = np.array(y_ord)
+##
+##pyp.figure('1')
+##pyp.plot(x_absc,y_ord)
+##pyp.xlabel("Abscissa")
+##pyp.ylabel("Density")
+##pyp.show()
+##pyp.close()
+
+
 ##
 ### illustrate 2D  
 ##
